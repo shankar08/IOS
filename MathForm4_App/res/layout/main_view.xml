@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="100" android:gravity="center_horizontal" android:background="@drawable/vertical_background">
+    <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="10"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp" android:layout_weight="22" android:weightSum="100"
+            android:layout_gravity="center_horizontal" android:gravity="center_horizontal">
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/txt_title" android:layout_weight="90"
+                android:textSize="58dp"
+                android:textColor="#000000" android:gravity="center_horizontal"
+                android:background="@drawable/idc_txt_heading"/>
+    </LinearLayout>
+    <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="5"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp" android:layout_weight="18" android:weightSum="100"
+            android:gravity="center_horizontal">
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_syllabus" android:layout_weight="36"
+                android:textSize="42dp"
+                android:background="@drawable/idc_btn_syllabus" android:textColor="#ffffff"
+                android:layout_gravity="top"/>
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="8"/>
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_review" android:layout_gravity="center_horizontal|top" android:layout_weight="36"
+                android:textSize="42dp"
+                android:background="@drawable/idc_btn_review"
+                android:textColor="#ffffff"/>
+    </LinearLayout>
+    <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="5"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp" android:layout_weight="18" android:weightSum="100"
+            android:gravity="center_horizontal">
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_past_papers" android:layout_gravity="center_horizontal|bottom" android:layout_weight="36"
+                android:textSize="42dp"
+                android:background="@drawable/idc_btn_past_papers" android:textColor="#ffffff"/>
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="8"/>
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_teams" android:layout_gravity="center_horizontal|bottom" android:layout_weight="36"
+                android:textSize="42dp"
+                android:background="@drawable/idc_btn_teams" android:textColor="#ffffff"/>
+    </LinearLayout>
+</LinearLayout>
+
+

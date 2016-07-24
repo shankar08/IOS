@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		903B93FD18DD230A000CD4B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 903B93FC18DD230A000CD4B9 /* Foundation.framework */; };
+		903B93FF18DD230A000CD4B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 903B93FE18DD230A000CD4B9 /* CoreGraphics.framework */; };
+		903B940118DD230A000CD4B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 903B940018DD230A000CD4B9 /* UIKit.framework */; };
+		903B940718DD230A000CD4B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 903B940518DD230A000CD4B9 /* InfoPlist.strings */; };
+		903B940918DD230A000CD4B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 903B940818DD230A000CD4B9 /* main.m */; };
+		903B940D18DD230A000CD4B9 /* XYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 903B940C18DD230A000CD4B9 /* XYZAppDelegate.m */; };
+		903B941018DD230A000CD4B9 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903B940E18DD230A000CD4B9 /* Main_iPhone.storyboard */; };
+		903B941318DD230A000CD4B9 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903B941118DD230A000CD4B9 /* Main_iPad.storyboard */; };
+		903B941618DD230A000CD4B9 /* XYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 903B941518DD230A000CD4B9 /* XYZViewController.m */; };
+		903B941818DD230A000CD4B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903B941718DD230A000CD4B9 /* Images.xcassets */; };
+		903B941F18DD230A000CD4B9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 903B941E18DD230A000CD4B9 /* XCTest.framework */; };
+		903B942018DD230A000CD4B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 903B93FC18DD230A000CD4B9 /* Foundation.framework */; };
+		903B942118DD230A000CD4B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 903B940018DD230A000CD4B9 /* UIKit.framework */; };
+		903B942918DD230A000CD4B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 903B942718DD230A000CD4B9 /* InfoPlist.strings */; };
+		903B942B18DD230A000CD4B9 /* InstaPrintzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 903B942A18DD230A000CD4B9 /* InstaPrintzTests.m */; };
+		903B943B18DD24F9000CD4B9 /* 29x.png in Resources */ = {isa = PBXBuildFile; fileRef = 903B943418DD24F9000CD4B9 /* 29x.png */; };
+		903B943C18DD24F9000CD4B9 /* 40x.png in Resources */ = {isa = PBXBuildFile; fileRef = 903B943518DD24F9000CD4B9 /* 40x.png */; };
+		903B943D18DD24F9000CD4B9 /* 58x.png in Resources */ = {isa = PBXBuildFile; fileRef = 903B943618DD24F9000CD4B9 /* 58x.png */; };
+		903B943E18DD24F9000CD4B9 /* 76x.png in Resources */ = {isa = PBXBuildFile; fileRef = 903B943718DD24F9000CD4B9 /* 76x.png */; };
+		903B943F18DD24F9000CD4B9 /* 80x.png in Resources */ = {isa = PBXBuildFile; fileRef = 903B943818DD24F9000CD4B9 /* 80x.png */; };
+		903B944018DD24F9000CD4B9 /* 120x.png in Resources */ = {isa = PBXBuildFile; fileRef = 903B943918DD24F9000CD4B9 /* 120x.png */; };
+		903B944118DD24F9000CD4B9 /* 152x.png in Resources */ = {isa = PBXBuildFile; fileRef = 903B943A18DD24F9000CD4B9 /* 152x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		903B942218DD230A000CD4B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 903B93F118DD230A000CD4B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 903B93F818DD230A000CD4B9;
+			remoteInfo = InstaPrintz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		903B93F918DD230A000CD4B9 /* InstaPrintz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaPrintz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		903B93FC18DD230A000CD4B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		903B93FE18DD230A000CD4B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		903B940018DD230A000CD4B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		903B940418DD230A000CD4B9 /* InstaPrintz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstaPrintz-Info.plist"; sourceTree = "<group>"; };
+		903B940618DD230A000CD4B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		903B940818DD230A000CD4B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		903B940A18DD230A000CD4B9 /* InstaPrintz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstaPrintz-Prefix.pch"; sourceTree = "<group>"; };
+		903B940B18DD230A000CD4B9 /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
+		903B940C18DD230A000CD4B9 /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
+		903B940F18DD230A000CD4B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		903B941218DD230A000CD4B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		903B941418DD230A000CD4B9 /* XYZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZViewController.h; sourceTree = "<group>"; };
+		903B941518DD230A000CD4B9 /* XYZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZViewController.m; sourceTree = "<group>"; };
+		903B941718DD230A000CD4B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		903B941D18DD230A000CD4B9 /* InstaPrintzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaPrintzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		903B941E18DD230A000CD4B9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		903B942618DD230A000CD4B9 /* InstaPrintzTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstaPrintzTests-Info.plist"; sourceTree = "<group>"; };
+		903B942818DD230A000CD4B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		903B942A18DD230A000CD4B9 /* InstaPrintzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaPrintzTests.m; sourceTree = "<group>"; };
+		903B943418DD24F9000CD4B9 /* 29x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29x.png; sourceTree = "<group>"; };
+		903B943518DD24F9000CD4B9 /* 40x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40x.png; sourceTree = "<group>"; };
+		903B943618DD24F9000CD4B9 /* 58x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58x.png; sourceTree = "<group>"; };
+		903B943718DD24F9000CD4B9 /* 76x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 76x.png; sourceTree = "<group>"; };
+		903B943818DD24F9000CD4B9 /* 80x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80x.png; sourceTree = "<group>"; };
+		903B943918DD24F9000CD4B9 /* 120x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x.png; sourceTree = "<group>"; };
+		903B943A18DD24F9000CD4B9 /* 152x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 152x.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		903B93F618DD230A000CD4B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903B93FF18DD230A000CD4B9 /* CoreGraphics.framework in Frameworks */,
+				903B940118DD230A000CD4B9 /* UIKit.framework in Frameworks */,
+				903B93FD18DD230A000CD4B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903B941A18DD230A000CD4B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903B941F18DD230A000CD4B9 /* XCTest.framework in Frameworks */,
+				903B942118DD230A000CD4B9 /* UIKit.framework in Frameworks */,
+				903B942018DD230A000CD4B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		903B93F018DD230A000CD4B9 = {
+			isa = PBXGroup;
+			children = (
+				903B940218DD230A000CD4B9 /* InstaPrintz */,
+				903B942418DD230A000CD4B9 /* InstaPrintzTests */,
+				903B93FB18DD230A000CD4B9 /* Frameworks */,
+				903B93FA18DD230A000CD4B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		903B93FA18DD230A000CD4B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				903B93F918DD230A000CD4B9 /* InstaPrintz.app */,
+				903B941D18DD230A000CD4B9 /* InstaPrintzTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		903B93FB18DD230A000CD4B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				903B93FC18DD230A000CD4B9 /* Foundation.framework */,
+				903B93FE18DD230A000CD4B9 /* CoreGraphics.framework */,
+				903B940018DD230A000CD4B9 /* UIKit.framework */,
+				903B941E18DD230A000CD4B9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		903B940218DD230A000CD4B9 /* InstaPrintz */ = {
+			isa = PBXGroup;
+			children = (
+				903B940B18DD230A000CD4B9 /* XYZAppDelegate.h */,
+				903B940C18DD230A000CD4B9 /* XYZAppDelegate.m */,
+				903B940E18DD230A000CD4B9 /* Main_iPhone.storyboard */,
+				903B941118DD230A000CD4B9 /* Main_iPad.storyboard */,
+				903B941418DD230A000CD4B9 /* XYZViewController.h */,
+				903B941518DD230A000CD4B9 /* XYZViewController.m */,
+				903B941718DD230A000CD4B9 /* Images.xcassets */,
+				903B943418DD24F9000CD4B9 /* 29x.png */,
+				903B943518DD24F9000CD4B9 /* 40x.png */,
+				903B943618DD24F9000CD4B9 /* 58x.png */,
+				903B943718DD24F9000CD4B9 /* 76x.png */,
+				903B943818DD24F9000CD4B9 /* 80x.png */,
+				903B943918DD24F9000CD4B9 /* 120x.png */,
+				903B943A18DD24F9000CD4B9 /* 152x.png */,
+				903B940318DD230A000CD4B9 /* Supporting Files */,
+			);
+			path = InstaPrintz;
+			sourceTree = "<group>";
+		};
+		903B940318DD230A000CD4B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				903B940418DD230A000CD4B9 /* InstaPrintz-Info.plist */,
+				903B940518DD230A000CD4B9 /* InfoPlist.strings */,
+				903B940818DD230A000CD4B9 /* main.m */,
+				903B940A18DD230A000CD4B9 /* InstaPrintz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		903B942418DD230A000CD4B9 /* InstaPrintzTests */ = {
+			isa = PBXGroup;
+			children = (
+				903B942A18DD230A000CD4B9 /* InstaPrintzTests.m */,
+				903B942518DD230A000CD4B9 /* Supporting Files */,
+			);
+			path = InstaPrintzTests;
+			sourceTree = "<group>";
+		};
+		903B942518DD230A000CD4B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				903B942618DD230A000CD4B9 /* InstaPrintzTests-Info.plist */,
+				903B942718DD230A000CD4B9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		903B93F818DD230A000CD4B9 /* InstaPrintz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903B942E18DD230A000CD4B9 /* Build configuration list for PBXNativeTarget "InstaPrintz" */;
+			buildPhases = (
+				903B93F518DD230A000CD4B9 /* Sources */,
+				903B93F618DD230A000CD4B9 /* Frameworks */,
+				903B93F718DD230A000CD4B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaPrintz;
+			productName = InstaPrintz;
+			productReference = 903B93F918DD230A000CD4B9 /* InstaPrintz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		903B941C18DD230A000CD4B9 /* InstaPrintzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 903B943118DD230A000CD4B9 /* Build configuration list for PBXNativeTarget "InstaPrintzTests" */;
+			buildPhases = (
+				903B941918DD230A000CD4B9 /* Sources */,
+				903B941A18DD230A000CD4B9 /* Frameworks */,
+				903B941B18DD230A000CD4B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				903B942318DD230A000CD4B9 /* PBXTargetDependency */,
+			);
+			name = InstaPrintzTests;
+			productName = InstaPrintzTests;
+			productReference = 903B941D18DD230A000CD4B9 /* InstaPrintzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		903B93F118DD230A000CD4B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XYZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Shankar Prajapati";
+				TargetAttributes = {
+					903B941C18DD230A000CD4B9 = {
+						TestTargetID = 903B93F818DD230A000CD4B9;
+					};
+				};
+			};
+			buildConfigurationList = 903B93F418DD230A000CD4B9 /* Build configuration list for PBXProject "InstaPrintz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 903B93F018DD230A000CD4B9;
+			productRefGroup = 903B93FA18DD230A000CD4B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				903B93F818DD230A000CD4B9 /* InstaPrintz */,
+				903B941C18DD230A000CD4B9 /* InstaPrintzTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		903B93F718DD230A000CD4B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903B944118DD24F9000CD4B9 /* 152x.png in Resources */,
+				903B943C18DD24F9000CD4B9 /* 40x.png in Resources */,
+				903B941318DD230A000CD4B9 /* Main_iPad.storyboard in Resources */,
+				903B944018DD24F9000CD4B9 /* 120x.png in Resources */,
+				903B941818DD230A000CD4B9 /* Images.xcassets in Resources */,
+				903B943F18DD24F9000CD4B9 /* 80x.png in Resources */,
+				903B943B18DD24F9000CD4B9 /* 29x.png in Resources */,
+				903B941018DD230A000CD4B9 /* Main_iPhone.storyboard in Resources */,
+				903B943D18DD24F9000CD4B9 /* 58x.png in Resources */,
+				903B940718DD230A000CD4B9 /* InfoPlist.strings in Resources */,
+				903B943E18DD24F9000CD4B9 /* 76x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903B941B18DD230A000CD4B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903B942918DD230A000CD4B9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		903B93F518DD230A000CD4B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903B941618DD230A000CD4B9 /* XYZViewController.m in Sources */,
+				903B940D18DD230A000CD4B9 /* XYZAppDelegate.m in Sources */,
+				903B940918DD230A000CD4B9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903B941918DD230A000CD4B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903B942B18DD230A000CD4B9 /* InstaPrintzTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		903B942318DD230A000CD4B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 903B93F818DD230A000CD4B9 /* InstaPrintz */;
+			targetProxy = 903B942218DD230A000CD4B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		903B940518DD230A000CD4B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				903B940618DD230A000CD4B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		903B940E18DD230A000CD4B9 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				903B940F18DD230A000CD4B9 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		903B941118DD230A000CD4B9 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				903B941218DD230A000CD4B9 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		903B942718DD230A000CD4B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				903B942818DD230A000CD4B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		903B942C18DD230A000CD4B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		903B942D18DD230A000CD4B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		903B942F18DD230A000CD4B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaPrintz/InstaPrintz-Prefix.pch";
+				INFOPLIST_FILE = "InstaPrintz/InstaPrintz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		903B943018DD230A000CD4B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaPrintz/InstaPrintz-Prefix.pch";
+				INFOPLIST_FILE = "InstaPrintz/InstaPrintz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		903B943218DD230A000CD4B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InstaPrintz.app/InstaPrintz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaPrintz/InstaPrintz-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "InstaPrintzTests/InstaPrintzTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		903B943318DD230A000CD4B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InstaPrintz.app/InstaPrintz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaPrintz/InstaPrintz-Prefix.pch";
+				INFOPLIST_FILE = "InstaPrintzTests/InstaPrintzTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		903B93F418DD230A000CD4B9 /* Build configuration list for PBXProject "InstaPrintz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903B942C18DD230A000CD4B9 /* Debug */,
+				903B942D18DD230A000CD4B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		903B942E18DD230A000CD4B9 /* Build configuration list for PBXNativeTarget "InstaPrintz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903B942F18DD230A000CD4B9 /* Debug */,
+				903B943018DD230A000CD4B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		903B943118DD230A000CD4B9 /* Build configuration list for PBXNativeTarget "InstaPrintzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				903B943218DD230A000CD4B9 /* Debug */,
+				903B943318DD230A000CD4B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 903B93F118DD230A000CD4B9 /* Project object */;
+}

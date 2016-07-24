@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MathForm4</string>
+
+    <string name="btn_syllabus_name">Syllabus</string>
+    <string name="btn_review_name">Review</string>
+    <string name="btn_questions_name">Questions</string>
+    <string name="btn_solutions_name">Solutions</string>
+    <string name="btn_past_papers_name">Past Papers</string>
+    <string name="btn_teams_name">Teams</string>
+    <string name="btn_back_name">back</string>
+
+    <string name="syllabus_table_name">Syllabus</string>
+    <string name="review_table_name">Review</string>
+    <string name="questions_table_name">Questions</string>
+    <string name="solutions_table_name">Solutions</string>
+
+    <string name="action_home">home</string>
+
+
+
+    <string name="check_license">Check license</string>
+    <string name="checking_license">Checking license...</string>
+    <string name="dont_allow">Don\'t allow the user access</string>
+    <string name="allow">Allow the user access</string>
+    <string name="application_error">Application error: %1$s</string>
+    <!-- Unlicensed dialog messages -->
+    <string name="unlicensed_dialog_title">Application not licensed</string>
+    <string name="unlicensed_dialog_body">This application is not licensed. Please purchase it from Android Market.</string>
+    <string name="buy_button">Buy app</string>
+    <string name="quit_button">Exit</string>
+</resources>

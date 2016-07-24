@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/vertical_background"
+              android:weightSum="100"
+              tools:context=".PastPapersActivity" android:gravity="left|top">
+
+    <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="5"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp" android:weightSum="100" android:layout_weight="8"
+            >
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="5"/>
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_back" android:layout_weight="22" android:background="@drawable/idc_btn_back"
+                android:textColor="#ffffff" android:textSize="32dp"/>
+    </LinearLayout>
+    <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="14"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp" android:layout_weight="18" android:weightSum="100"
+            android:gravity="center_horizontal">
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_questions" android:layout_weight="36"
+                android:background="@drawable/idc_btn_questions"
+                android:textSize="36dp" android:textColor="#ffffff"/>
+    </LinearLayout>
+    <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="5"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp" android:layout_weight="18" android:weightSum="100"
+            android:gravity="center_horizontal">
+        <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_solutions" android:layout_weight="36"
+                android:background="@drawable/idc_btn_solutions" android:textSize="36dp" android:textColor="#ffffff"/>
+    </LinearLayout>
+</LinearLayout>

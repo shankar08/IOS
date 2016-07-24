@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MELM_Theme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MELM_ActionBar</item>
+    </style>
+
+    <style name="MELM_ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#ff0077ee</item>
+        <item name="android:titleTextStyle">@style/MELM_ActionBar_TitleTextStyle</item>
+    </style>
+
+    <style name="MELM_ActionBar_TitleTextStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+</resources>
