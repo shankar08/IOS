@@ -12,6 +12,7 @@
 		904AB8131D458AA000FDFBAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904AB8111D458AA000FDFBAE /* Main.storyboard */; };
 		904AB8151D458AA000FDFBAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904AB8141D458AA000FDFBAE /* Assets.xcassets */; };
 		904AB8181D458AA000FDFBAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904AB8161D458AA000FDFBAE /* LaunchScreen.storyboard */; };
+		904AB8201D45920F00FDFBAE /* iphone_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 904AB81F1D45920F00FDFBAE /* iphone_background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		904AB8141D458AA000FDFBAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		904AB8171D458AA000FDFBAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		904AB8191D458AA000FDFBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904AB81F1D45920F00FDFBAE /* iphone_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iphone_background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				904AB80D1D458AA000FDFBAE /* AppDelegate.swift */,
 				904AB80F1D458AA000FDFBAE /* ViewController.swift */,
+				904AB81F1D45920F00FDFBAE /* iphone_background.jpg */,
 				904AB8111D458AA000FDFBAE /* Main.storyboard */,
 				904AB8141D458AA000FDFBAE /* Assets.xcassets */,
 				904AB8161D458AA000FDFBAE /* LaunchScreen.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					904AB8091D458AA000FDFBAE = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 788CPQXE33;
 					};
 				};
 			};
@@ -124,6 +128,7 @@
 			files = (
 				904AB8181D458AA000FDFBAE /* LaunchScreen.storyboard in Resources */,
 				904AB8151D458AA000FDFBAE /* Assets.xcassets in Resources */,
+				904AB8201D45920F00FDFBAE /* iphone_background.jpg in Resources */,
 				904AB8131D458AA000FDFBAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,10 +256,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Whats the Weather Today/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "shankar.Whats-the-Weather-Today";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -262,10 +270,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Whats the Weather Today/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "shankar.Whats-the-Weather-Today";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
