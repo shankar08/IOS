@@ -220,6 +220,25 @@
                                     <action selector="playAgainPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DTJ-7h-jw9"/>
                                 </connections>
                             </button>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Osl-cc-LKS">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Zld-Up-cfV"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Tic Tac Toe" id="6ZG-fd-1c2">
+                                        <barButtonItem key="leftBarButtonItem" title="back" id="ou4-rT-DrK">
+                                            <connections>
+                                                <segue destination="xSg-lh-7y0" kind="show" id="93A-Wy-Bh7"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Quit" id="fg2-si-Ox9">
+                                            <connections>
+                                                <action selector="QuitPlaying:" destination="BYZ-38-t0r" id="FdD-hR-FWY"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                             <label opaque="NO" userInteractionEnabled="NO" tag="10" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Crosses has Won!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YLD-19-c2n">
                                 <frame key="frameInset" minX="75" minY="293" width="225" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -231,6 +250,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Osl-cc-LKS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="24g-iK-SuQ"/>
                             <constraint firstItem="SiE-R8-5yl" firstAttribute="top" secondItem="Opa-Pw-6jx" secondAttribute="top" id="BR9-pU-r0e"/>
                             <constraint firstItem="akV-ct-Nre" firstAttribute="leading" secondItem="Opa-Pw-6jx" secondAttribute="leading" constant="19" id="D1U-bQ-orX"/>
                             <constraint firstItem="Wq1-fV-Bcr" firstAttribute="centerY" secondItem="Opa-Pw-6jx" secondAttribute="centerY" id="FXN-Le-bgN"/>
@@ -244,10 +264,12 @@
                             <constraint firstItem="hJh-eV-NaR" firstAttribute="bottom" secondItem="Opa-Pw-6jx" secondAttribute="bottom" id="Zg3-Pu-SxF"/>
                             <constraint firstItem="Wq1-fV-Bcr" firstAttribute="trailing" secondItem="Opa-Pw-6jx" secondAttribute="trailing" constant="-12" id="Zgj-rd-p5R"/>
                             <constraint firstItem="Xoc-tH-yfY" firstAttribute="centerY" secondItem="Opa-Pw-6jx" secondAttribute="centerY" id="aik-9x-0WF"/>
+                            <constraint firstItem="Osl-cc-LKS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gnR-BI-MIQ"/>
                             <constraint firstItem="AnT-yW-srz" firstAttribute="top" secondItem="Opa-Pw-6jx" secondAttribute="top" id="hK9-ZN-wR9"/>
                             <constraint firstItem="AnT-yW-srz" firstAttribute="leading" secondItem="Opa-Pw-6jx" secondAttribute="leading" constant="19" id="lG1-Xu-jc4"/>
                             <constraint firstItem="hJh-eV-NaR" firstAttribute="centerX" secondItem="Opa-Pw-6jx" secondAttribute="centerX" id="mis-X8-NYy"/>
                             <constraint firstItem="Opa-Pw-6jx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mnR-V5-FMc"/>
+                            <constraint firstAttribute="trailing" secondItem="Osl-cc-LKS" secondAttribute="trailing" id="oy4-og-M0v"/>
                             <constraint firstItem="9Ko-eS-bCI" firstAttribute="bottom" secondItem="Opa-Pw-6jx" secondAttribute="bottom" id="raB-WD-UcP"/>
                             <constraint firstItem="Opa-Pw-6jx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rfq-eV-Ms4"/>
                             <constraint firstItem="9Ko-eS-bCI" firstAttribute="trailing" secondItem="akV-ct-Nre" secondAttribute="trailing" id="xNB-g8-BuO"/>

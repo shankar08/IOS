@@ -106,6 +106,11 @@ class ViewController: UIViewController {
         
        
     }
+    @IBAction func QuitPlaying(_ sender: AnyObject) {
+        exit(0)
+    
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
