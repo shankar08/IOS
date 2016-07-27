@@ -65,8 +65,6 @@ class ViewController: UIViewController {
         
                 task.resume()
             
-          
-            
             }
             else {
                 self.resultLabel.text = "Couldnot find the weather for that city - please try again."
