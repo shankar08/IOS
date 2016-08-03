@@ -68,21 +68,23 @@ var newTypeString = NSString(string: newString)
 
 print(newTypeString)
 
-print(newTypeString.substringToIndex(5))
+print(newTypeString.substring(to: 5))
 
-print(newTypeString.substringFromIndex(6))
+print(newTypeString.substring(from: 6))
 
-print(newTypeString.substringWithRange(NSRange(location: 1, length: 2)))
+print(newTypeString.substring(with: NSRange(location: 1, length: 2)))
 
-newTypeString.containsString("Shanki")
+newTypeString.contains("Shanki")
 
-newTypeString.componentsSeparatedByString(" ")
+newTypeString.components(separatedBy: " ")
 
-newTypeString.uppercaseString
-newTypeString.lowercaseString
+newTypeString.uppercased
+newTypeString.lowercased
 
 
-
+for i in 1...5 {
+    print("\(i) times 5 is \(i * 5)")
+}
 
 
 

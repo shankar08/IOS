@@ -58,7 +58,6 @@ class ViewController: UIViewController {
         //this if statement checks if the state of the box is empty.
         if gameState[sender.tag] == 0  && gameActive == true{
             
-           
             var image = UIImage()
             
             //this keeps tracks of the board location
@@ -99,11 +98,7 @@ class ViewController: UIViewController {
                     gameActive = false
                 }
             }
-            
         }
-        
-       
-        
        
     }
     @IBAction func QuitPlaying(_ sender: AnyObject) {
@@ -128,11 +123,7 @@ class ViewController: UIViewController {
     }
     
     override func viewDidLayoutSubviews() {
-        
-        
-        //gameOverLabel.center = CGPointMake(gameOverLabel.center.x - 400, gameOverLabel.center.y)
-        
-        //playAgain.center = CGPointMake(playAgain.center.x - 400, playAgain.center.y)
+    
     }
 
 
