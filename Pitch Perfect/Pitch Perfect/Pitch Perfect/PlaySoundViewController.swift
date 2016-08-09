@@ -22,11 +22,11 @@ class PlaySoundViewController: UIViewController {
         super.viewDidLoad()
         
         audioEngine = AVAudioEngine()
-        audioFile = try! AVAudioFile(forReading: receivedAudio.filePathUrl)
+        audioFile = try! AVAudioFile(forReading: receivedAudio.filePathUrl as URL)
 
         
         do{
-            audioPlayer = try AVAudioPlayer(contentsOfURL:receivedAudio.filePathUrl!)
+            audioPlayer = try AVAudioPlayer(contentsOf:receivedAudio.filePathUrl! as URL)
             audioPlayer.enableRate = true;
         }catch{
             print("Error")
@@ -41,14 +41,14 @@ class PlaySoundViewController: UIViewController {
     }
     
 
-    @IBAction func PlaySlow(sender: UIButton) {
+    @IBAction func PlaySlow(_ sender: UIButton) {
         audioPlayer.stop()
         audioPlayer.rate = 0.5
         audioPlayer.currentTime = 0.0
         audioPlayer.play()
     }
     
-    @IBAction func PlayFast(sender: UIButton) {
+    @IBAction func PlayFast(_ sender: UIButton) {
         audioPlayer.stop()
         audioPlayer.rate = 2.0
         audioPlayer.currentTime = 0.0
@@ -56,37 +56,37 @@ class PlaySoundViewController: UIViewController {
         
     }
     
-    @IBAction func PlayChipMonk(sender: UIButton) {
+    @IBAction func PlayChipMonk(_ sender: UIButton) {
         playAudioWithVariablePitch(1000)
         
     }
     
-    func playAudioWithVariablePitch(pitch: Float){
+    func playAudioWithVariablePitch(_ pitch: Float){
         audioPlayer.stop()
         audioEngine.stop()
         audioEngine.reset()
         
         let audioPlayerNode = AVAudioPlayerNode()
-        audioEngine.attachNode(audioPlayerNode)
+        audioEngine.attach(audioPlayerNode)
         
         let changePitchEffect = AVAudioUnitTimePitch()
         changePitchEffect.pitch = pitch
-        audioEngine.attachNode(changePitchEffect)
+        audioEngine.attach(changePitchEffect)
         
         audioEngine.connect(audioPlayerNode, to: changePitchEffect, format: nil)
         audioEngine.connect(changePitchEffect, to: audioEngine.outputNode, format: nil)
         
-        audioPlayerNode.scheduleFile(audioFile, atTime: nil, completionHandler: nil)
+        audioPlayerNode.scheduleFile(audioFile, at: nil, completionHandler: nil)
         try! audioEngine.start()
         
         audioPlayerNode.play()
     }
     
-    @IBAction func playDarthVader(sender: UIButton) {
+    @IBAction func playDarthVader(_ sender: UIButton) {
         playAudioWithVariablePitch(-1000)
     }
     
-    @IBAction func StopPlay(sender: UIButton) {
+    @IBAction func StopPlay(_ sender: UIButton) {
         audioPlayer.stop()
     }
     /*

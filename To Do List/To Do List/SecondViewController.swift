@@ -12,16 +12,16 @@ class SecondViewController: UIViewController {
 
     @IBOutlet var inputData: UITextField!
     
-    @IBAction func AddToList(sender: AnyObject) {
+    @IBAction func AddToList(_ sender: AnyObject) {
         
 
-//the data is added to the table
+        //the data is added to the table
         //the text input field is set to empty
         toDoListData.append(inputData.text!)
         inputData.text = ""
         
         //the data is permanently aded to the array
-        NSUserDefaults.standardUserDefaults().setObject(toDoListData, forKey: "toDoListData")
+        UserDefaults.standard.set(toDoListData, forKey: "toDoListData")
         
     }
     override func viewDidLoad() {
@@ -36,11 +36,11 @@ class SecondViewController: UIViewController {
     
     //these two fucntion below helps to minimize the keyboard by tapping outside the text input field and 
     //with return key
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
     
-    func textFieldShouldReturn(textField: UITextField!) -> Bool
+    func textFieldShouldReturn(_ textField: UITextField!) -> Bool
     {
         textField.resignFirstResponder()
         return true

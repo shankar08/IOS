@@ -88,4 +88,17 @@ for i in 1...5 {
 
 
 
+let label: UILabel = UILabel(frame: CGRect.init(x: 20, y: 20, width: 200, height: 50))
+label.text = "Sample Text"
+label.font = UIFont.boldSystemFont(ofSize: 20)
+label.textColor = UIColor.blue()
+
+
+
+for p in 0 ..< 10 {
+    print(p)
+}
+
+
+
 

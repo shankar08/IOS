@@ -24,11 +24,11 @@ class FirstViewController: UIViewController, UITableViewDelegate {
         
        
         //checking if there is already data in the toDoListData
-        if NSUserDefaults.standardUserDefaults().objectForKey("toDoListData") != nil {
+        if UserDefaults.standard.object(forKey: "toDoListData") != nil {
     
         //storing the data permanently 
             
-        toDoListData = NSUserDefaults.standardUserDefaults().objectForKey("toDoListData") as! [String]
+        toDoListData = UserDefaults.standard.object(forKey: "toDoListData") as! [String]
             
             
         }
@@ -40,7 +40,7 @@ class FirstViewController: UIViewController, UITableViewDelegate {
     }
     
     //this function defines how many rows will be in the table
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
         
         return toDoListData.count
         
@@ -48,27 +48,27 @@ class FirstViewController: UIViewController, UITableViewDelegate {
     
     //this funciton defines how the data in the cell is  being populated 
     //the cell with the data is returned
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
-        let cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "Cell")
+    private func tableView(_ tableView: UITableView, cellForRowAtIndexPath indexPath: IndexPath) -> UITableViewCell{
+        let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "Cell")
         
-        cell.textLabel?.text = toDoListData[indexPath.row]
+        cell.textLabel?.text = toDoListData[(indexPath as NSIndexPath).row]
         
         return cell
     }
     
     //this function enables the swipe delete button in the cell of the table view
-    func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath){
+    private func tableView(_ tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: IndexPath){
         
-        if editingStyle == UITableViewCellEditingStyle.Delete {
-            toDoListData.removeAtIndex(indexPath.row)
+        if editingStyle == UITableViewCellEditingStyle.delete {
+            toDoListData.remove(at: (indexPath as NSIndexPath).row)
             
-            NSUserDefaults.standardUserDefaults().setObject(toDoListData, forKey: "toDoListData")
+            UserDefaults.standard.set(toDoListData, forKey: "toDoListData")
             tabledata.reloadData()
         }
     }
     
     //this function refresh the view each time the view appreas with the updated data
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         tabledata.reloadData()
     }
 
