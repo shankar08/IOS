@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9024333F1D620F40004C450E /* baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9024332A1D620F3F004C450E /* baby.mp3 */; };
+		902433401D620F40004C450E /* belach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9024332B1D620F40004C450E /* belach.mp3 */; };
+		902433411D620F40004C450E /* bizarre.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9024332C1D620F40004C450E /* bizarre.mp3 */; };
+		902433421D620F40004C450E /* caroon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9024332D1D620F40004C450E /* caroon.mp3 */; };
+		902433431D620F40004C450E /* chinese.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9024332E1D620F40004C450E /* chinese.mp3 */; };
+		902433441D620F40004C450E /* Chipmunks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9024332F1D620F40004C450E /* Chipmunks.mp3 */; };
+		902433451D620F40004C450E /* Cinematic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 902433301D620F40004C450E /* Cinematic.mp3 */; };
+		902433461D620F40004C450E /* dogpanting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 902433311D620F40004C450E /* dogpanting.mp3 */; };
+		902433471D620F40004C450E /* European.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 902433321D620F40004C450E /* European.mp3 */; };
+		902433481D620F40004C450E /* Fart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 902433331D620F40004C450E /* Fart.mp3 */; };
+		902433491D620F40004C450E /* FartSqueeze.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 902433341D620F40004C450E /* FartSqueeze.mp3 */; };
+		9024334A1D620F40004C450E /* foghorn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 902433351D620F40004C450E /* foghorn.mp3 */; };
+		9024334B1D620F40004C450E /* FunnyBoy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 902433361D620F40004C450E /* FunnyBoy.mp3 */; };
+		9024334C1D620F40004C450E /* funnyvoices.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 902433371D620F40004C450E /* funnyvoices.mp3 */; };
+		9024334D1D620F40004C450E /* hahaha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 902433381D620F40004C450E /* hahaha.mp3 */; };
+		9024334E1D620F40004C450E /* handcuffs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 902433391D620F40004C450E /* handcuffs.mp3 */; };
+		9024334F1D620F40004C450E /* oldrecord.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9024333A1D620F40004C450E /* oldrecord.mp3 */; };
+		902433501D620F40004C450E /* puppybarking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9024333B1D620F40004C450E /* puppybarking.mp3 */; };
+		902433511D620F40004C450E /* SickVillain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9024333C1D620F40004C450E /* SickVillain.mp3 */; };
+		902433521D620F40004C450E /* SteamEngine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9024333D1D620F40004C450E /* SteamEngine.mp3 */; };
+		902433531D620F40004C450E /* wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9024333E1D620F40004C450E /* wind.mp3 */; };
+		90B628541D6025B700B82222 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B628531D6025B700B82222 /* AppDelegate.swift */; };
+		90B628561D6025B700B82222 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B628551D6025B700B82222 /* ViewController.swift */; };
+		90B628591D6025B700B82222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B628571D6025B700B82222 /* Main.storyboard */; };
+		90B6285B1D6025B700B82222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90B6285A1D6025B700B82222 /* Assets.xcassets */; };
+		90B6285E1D6025B700B82222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B6285C1D6025B700B82222 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9024332A1D620F3F004C450E /* baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = baby.mp3; path = ../../sounds/baby.mp3; sourceTree = "<group>"; };
+		9024332B1D620F40004C450E /* belach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = belach.mp3; path = ../../sounds/belach.mp3; sourceTree = "<group>"; };
+		9024332C1D620F40004C450E /* bizarre.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bizarre.mp3; path = ../../sounds/bizarre.mp3; sourceTree = "<group>"; };
+		9024332D1D620F40004C450E /* caroon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = caroon.mp3; path = ../../sounds/caroon.mp3; sourceTree = "<group>"; };
+		9024332E1D620F40004C450E /* chinese.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = chinese.mp3; path = ../../sounds/chinese.mp3; sourceTree = "<group>"; };
+		9024332F1D620F40004C450E /* Chipmunks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Chipmunks.mp3; path = ../../sounds/Chipmunks.mp3; sourceTree = "<group>"; };
+		902433301D620F40004C450E /* Cinematic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Cinematic.mp3; path = ../../sounds/Cinematic.mp3; sourceTree = "<group>"; };
+		902433311D620F40004C450E /* dogpanting.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = dogpanting.mp3; path = ../../sounds/dogpanting.mp3; sourceTree = "<group>"; };
+		902433321D620F40004C450E /* European.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = European.mp3; path = ../../sounds/European.mp3; sourceTree = "<group>"; };
+		902433331D620F40004C450E /* Fart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Fart.mp3; path = ../../sounds/Fart.mp3; sourceTree = "<group>"; };
+		902433341D620F40004C450E /* FartSqueeze.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = FartSqueeze.mp3; path = ../../sounds/FartSqueeze.mp3; sourceTree = "<group>"; };
+		902433351D620F40004C450E /* foghorn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = foghorn.mp3; path = ../../sounds/foghorn.mp3; sourceTree = "<group>"; };
+		902433361D620F40004C450E /* FunnyBoy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = FunnyBoy.mp3; path = ../../sounds/FunnyBoy.mp3; sourceTree = "<group>"; };
+		902433371D620F40004C450E /* funnyvoices.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = funnyvoices.mp3; path = ../../sounds/funnyvoices.mp3; sourceTree = "<group>"; };
+		902433381D620F40004C450E /* hahaha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hahaha.mp3; path = ../../sounds/hahaha.mp3; sourceTree = "<group>"; };
+		902433391D620F40004C450E /* handcuffs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = handcuffs.mp3; path = ../../sounds/handcuffs.mp3; sourceTree = "<group>"; };
+		9024333A1D620F40004C450E /* oldrecord.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = oldrecord.mp3; path = ../../sounds/oldrecord.mp3; sourceTree = "<group>"; };
+		9024333B1D620F40004C450E /* puppybarking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = puppybarking.mp3; path = ../../sounds/puppybarking.mp3; sourceTree = "<group>"; };
+		9024333C1D620F40004C450E /* SickVillain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SickVillain.mp3; path = ../../sounds/SickVillain.mp3; sourceTree = "<group>"; };
+		9024333D1D620F40004C450E /* SteamEngine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SteamEngine.mp3; path = ../../sounds/SteamEngine.mp3; sourceTree = "<group>"; };
+		9024333E1D620F40004C450E /* wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = wind.mp3; path = ../../sounds/wind.mp3; sourceTree = "<group>"; };
+		90B628501D6025B700B82222 /* swipes and shakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swipes and shakes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B628531D6025B700B82222 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90B628551D6025B700B82222 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90B628581D6025B700B82222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90B6285A1D6025B700B82222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90B6285D1D6025B700B82222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90B6285F1D6025B700B82222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90B6284D1D6025B700B82222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90B628471D6025B700B82222 = {
+			isa = PBXGroup;
+			children = (
+				90B628521D6025B700B82222 /* swipes and shakes */,
+				90B628511D6025B700B82222 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90B628511D6025B700B82222 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90B628501D6025B700B82222 /* swipes and shakes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90B628521D6025B700B82222 /* swipes and shakes */ = {
+			isa = PBXGroup;
+			children = (
+				90B628531D6025B700B82222 /* AppDelegate.swift */,
+				90B628551D6025B700B82222 /* ViewController.swift */,
+				9024332A1D620F3F004C450E /* baby.mp3 */,
+				9024332B1D620F40004C450E /* belach.mp3 */,
+				9024332C1D620F40004C450E /* bizarre.mp3 */,
+				9024332D1D620F40004C450E /* caroon.mp3 */,
+				9024332E1D620F40004C450E /* chinese.mp3 */,
+				9024332F1D620F40004C450E /* Chipmunks.mp3 */,
+				902433301D620F40004C450E /* Cinematic.mp3 */,
+				902433311D620F40004C450E /* dogpanting.mp3 */,
+				902433321D620F40004C450E /* European.mp3 */,
+				902433331D620F40004C450E /* Fart.mp3 */,
+				902433341D620F40004C450E /* FartSqueeze.mp3 */,
+				902433351D620F40004C450E /* foghorn.mp3 */,
+				902433361D620F40004C450E /* FunnyBoy.mp3 */,
+				902433371D620F40004C450E /* funnyvoices.mp3 */,
+				902433381D620F40004C450E /* hahaha.mp3 */,
+				902433391D620F40004C450E /* handcuffs.mp3 */,
+				9024333A1D620F40004C450E /* oldrecord.mp3 */,
+				9024333B1D620F40004C450E /* puppybarking.mp3 */,
+				9024333C1D620F40004C450E /* SickVillain.mp3 */,
+				9024333D1D620F40004C450E /* SteamEngine.mp3 */,
+				9024333E1D620F40004C450E /* wind.mp3 */,
+				90B628571D6025B700B82222 /* Main.storyboard */,
+				90B6285A1D6025B700B82222 /* Assets.xcassets */,
+				90B6285C1D6025B700B82222 /* LaunchScreen.storyboard */,
+				90B6285F1D6025B700B82222 /* Info.plist */,
+			);
+			path = "swipes and shakes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90B6284F1D6025B700B82222 /* swipes and shakes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90B628621D6025B700B82222 /* Build configuration list for PBXNativeTarget "swipes and shakes" */;
+			buildPhases = (
+				90B6284C1D6025B700B82222 /* Sources */,
+				90B6284D1D6025B700B82222 /* Frameworks */,
+				90B6284E1D6025B700B82222 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swipes and shakes";
+			productName = "swipes and shakes";
+			productReference = 90B628501D6025B700B82222 /* swipes and shakes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90B628481D6025B700B82222 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Shankar Prajapati";
+				TargetAttributes = {
+					90B6284F1D6025B700B82222 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 788CPQXE33;
+						DevelopmentTeamName = "Shankar Prajapati (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 90B6284B1D6025B700B82222 /* Build configuration list for PBXProject "swipes and shakes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90B628471D6025B700B82222;
+			productRefGroup = 90B628511D6025B700B82222 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90B6284F1D6025B700B82222 /* swipes and shakes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90B6284E1D6025B700B82222 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902433461D620F40004C450E /* dogpanting.mp3 in Resources */,
+				9024334D1D620F40004C450E /* hahaha.mp3 in Resources */,
+				902433471D620F40004C450E /* European.mp3 in Resources */,
+				902433521D620F40004C450E /* SteamEngine.mp3 in Resources */,
+				902433431D620F40004C450E /* chinese.mp3 in Resources */,
+				902433481D620F40004C450E /* Fart.mp3 in Resources */,
+				9024334B1D620F40004C450E /* FunnyBoy.mp3 in Resources */,
+				9024334A1D620F40004C450E /* foghorn.mp3 in Resources */,
+				902433531D620F40004C450E /* wind.mp3 in Resources */,
+				902433421D620F40004C450E /* caroon.mp3 in Resources */,
+				902433451D620F40004C450E /* Cinematic.mp3 in Resources */,
+				9024333F1D620F40004C450E /* baby.mp3 in Resources */,
+				9024334C1D620F40004C450E /* funnyvoices.mp3 in Resources */,
+				90B6285E1D6025B700B82222 /* LaunchScreen.storyboard in Resources */,
+				902433511D620F40004C450E /* SickVillain.mp3 in Resources */,
+				902433411D620F40004C450E /* bizarre.mp3 in Resources */,
+				902433501D620F40004C450E /* puppybarking.mp3 in Resources */,
+				9024334E1D620F40004C450E /* handcuffs.mp3 in Resources */,
+				902433441D620F40004C450E /* Chipmunks.mp3 in Resources */,
+				90B6285B1D6025B700B82222 /* Assets.xcassets in Resources */,
+				902433401D620F40004C450E /* belach.mp3 in Resources */,
+				9024334F1D620F40004C450E /* oldrecord.mp3 in Resources */,
+				902433491D620F40004C450E /* FartSqueeze.mp3 in Resources */,
+				90B628591D6025B700B82222 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90B6284C1D6025B700B82222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B628561D6025B700B82222 /* ViewController.swift in Sources */,
+				90B628541D6025B700B82222 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90B628571D6025B700B82222 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90B628581D6025B700B82222 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90B6285C1D6025B700B82222 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90B6285D1D6025B700B82222 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90B628601D6025B700B82222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90B628611D6025B700B82222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90B628631D6025B700B82222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "swipes and shakes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shankar.swipes-and-shakes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		90B628641D6025B700B82222 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "swipes and shakes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "shankar.swipes-and-shakes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90B6284B1D6025B700B82222 /* Build configuration list for PBXProject "swipes and shakes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B628601D6025B700B82222 /* Debug */,
+				90B628611D6025B700B82222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90B628621D6025B700B82222 /* Build configuration list for PBXNativeTarget "swipes and shakes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B628631D6025B700B82222 /* Debug */,
+				90B628641D6025B700B82222 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90B628481D6025B700B82222 /* Project object */;
+}
