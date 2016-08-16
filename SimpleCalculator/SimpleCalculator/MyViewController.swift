@@ -51,7 +51,7 @@ class MyViewController: UIViewController {
             break
             
         case "÷"?:
-            if operandStack.removeLast() != 0 {
+            if operandStack.last != 0 {
                 performOperation {$1 / $0}
             } else {
                 display.text = "Error"
