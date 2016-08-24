@@ -42,18 +42,18 @@ class ViewController: UIViewController {
         
         fetchRequest.returnsObjectsAsFaults = false
         
-//        if let users = try? fetchRequest.execute() {
-//            
-//            print(users)
-//        }
-                do{
-        `
-                    let results = try fetchRequest.execute()
-                    print(results)
+        if let users = try? fetchRequest.execute() {
+            
+            print(users)
+        }
+//                do{
+//        
+//                    let results = try fetchRequest.execute()
+//                    print(results)
         
-                } catch {
-                    print("fetching failed")
-                }
+//                } catch {
+//                    print("fetching failed")
+//                }
         
     }
     

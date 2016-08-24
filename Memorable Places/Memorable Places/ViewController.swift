@@ -28,7 +28,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             manager.startUpdatingLocation()
             
         } else {
-        
+         
             let latitude = NSString(string:places[activePlace]["lat"]!).doubleValue
             
             let longitude = NSString(string:places[activePlace]["lon"]!).doubleValue
@@ -115,10 +115,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
                 self.mapData.addAnnotation(annotation)
                 
                // print(newtitle)
-            })
-                
-            
-            
+            })  
                 
         }
     }
