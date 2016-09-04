@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C36A4A668B6E1A6EFCFAEF9 /* Pods_EverestFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83FC7408BBCAF9A24768F05E /* Pods_EverestFC.framework */; };
+		9079B1DE1D7A76B400281459 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9079B1DD1D7A76B400281459 /* AppDelegate.swift */; };
+		9079B1E01D7A76B400281459 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9079B1DF1D7A76B400281459 /* ViewController.swift */; };
+		9079B1E31D7A76B400281459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9079B1E11D7A76B400281459 /* Main.storyboard */; };
+		9079B1E51D7A76B400281459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9079B1E41D7A76B400281459 /* Assets.xcassets */; };
+		9079B1E81D7A76B400281459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9079B1E61D7A76B400281459 /* LaunchScreen.storyboard */; };
+		9079B1F01D7A789600281459 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9079B1EF1D7A789600281459 /* GoogleService-Info.plist */; };
+		9079B1F41D7A93D900281459 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9079B1F11D7A93D900281459 /* FBSDKCoreKit.framework */; };
+		9079B1F51D7A93D900281459 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9079B1F21D7A93D900281459 /* FBSDKLoginKit.framework */; };
+		9079B1F61D7A93D900281459 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9079B1F31D7A93D900281459 /* FBSDKShareKit.framework */; };
+		90B078601D7B94A7000BF2F3 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90B078541D7B94A7000BF2F3 /* Roboto-Black.ttf */; };
+		90B078611D7B94A7000BF2F3 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90B078551D7B94A7000BF2F3 /* Roboto-BlackItalic.ttf */; };
+		90B078621D7B94A7000BF2F3 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90B078561D7B94A7000BF2F3 /* Roboto-Bold.ttf */; };
+		90B078631D7B94A7000BF2F3 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90B078571D7B94A7000BF2F3 /* Roboto-BoldItalic.ttf */; };
+		90B078641D7B94A7000BF2F3 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90B078581D7B94A7000BF2F3 /* Roboto-Italic.ttf */; };
+		90B078651D7B94A7000BF2F3 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90B078591D7B94A7000BF2F3 /* Roboto-Light.ttf */; };
+		90B078661D7B94A7000BF2F3 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90B0785A1D7B94A7000BF2F3 /* Roboto-LightItalic.ttf */; };
+		90B078671D7B94A7000BF2F3 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90B0785B1D7B94A7000BF2F3 /* Roboto-Medium.ttf */; };
+		90B078681D7B94A7000BF2F3 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90B0785C1D7B94A7000BF2F3 /* Roboto-MediumItalic.ttf */; };
+		90B078691D7B94A7000BF2F3 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90B0785D1D7B94A7000BF2F3 /* Roboto-Regular.ttf */; };
+		90B0786A1D7B94A7000BF2F3 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90B0785E1D7B94A7000BF2F3 /* Roboto-Thin.ttf */; };
+		90B0786B1D7B94A7000BF2F3 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90B0785F1D7B94A7000BF2F3 /* Roboto-ThinItalic.ttf */; };
+		90B0786D1D7BA19B000BF2F3 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0786C1D7BA19B000BF2F3 /* MaterialView.swift */; };
+		90B078701D7BA21D000BF2F3 /* constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B0786F1D7BA21D000BF2F3 /* constant.swift */; };
+		90B078721D7BAA74000BF2F3 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B078711D7BAA74000BF2F3 /* MaterialButton.swift */; };
+		90B078741D7BB252000BF2F3 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B078731D7BB252000BF2F3 /* MaterialTextField.swift */; };
+		90B078761D7BC3FC000BF2F3 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B078751D7BC3FC000BF2F3 /* Bolts.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EB35C1676E9DE5E6730867D /* Pods-EverestFC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EverestFC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EverestFC/Pods-EverestFC.debug.xcconfig"; sourceTree = "<group>"; };
+		83FC7408BBCAF9A24768F05E /* Pods_EverestFC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EverestFC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9079B1DA1D7A76B400281459 /* EverestFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverestFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9079B1DD1D7A76B400281459 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9079B1DF1D7A76B400281459 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9079B1E21D7A76B400281459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9079B1E41D7A76B400281459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9079B1E71D7A76B400281459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9079B1E91D7A76B400281459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9079B1EF1D7A789600281459 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9079B1F11D7A93D900281459 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		9079B1F21D7A93D900281459 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		9079B1F31D7A93D900281459 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		90B078541D7B94A7000BF2F3 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Black.ttf"; path = "../../../../Downloads/Roboto/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		90B078551D7B94A7000BF2F3 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BlackItalic.ttf"; path = "../../../../Downloads/Roboto/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		90B078561D7B94A7000BF2F3 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "../../../../Downloads/Roboto/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		90B078571D7B94A7000BF2F3 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BoldItalic.ttf"; path = "../../../../Downloads/Roboto/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		90B078581D7B94A7000BF2F3 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Italic.ttf"; path = "../../../../Downloads/Roboto/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		90B078591D7B94A7000BF2F3 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "../../../../Downloads/Roboto/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		90B0785A1D7B94A7000BF2F3 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-LightItalic.ttf"; path = "../../../../Downloads/Roboto/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		90B0785B1D7B94A7000BF2F3 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "../../../../Downloads/Roboto/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		90B0785C1D7B94A7000BF2F3 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-MediumItalic.ttf"; path = "../../../../Downloads/Roboto/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		90B0785D1D7B94A7000BF2F3 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "../../../../Downloads/Roboto/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		90B0785E1D7B94A7000BF2F3 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "../../../../Downloads/Roboto/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		90B0785F1D7B94A7000BF2F3 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-ThinItalic.ttf"; path = "../../../../Downloads/Roboto/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		90B0786C1D7BA19B000BF2F3 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		90B0786F1D7BA21D000BF2F3 /* constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constant.swift; sourceTree = "<group>"; };
+		90B078711D7BAA74000BF2F3 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		90B078731D7BB252000BF2F3 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		90B078751D7BC3FC000BF2F3 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		D2373BC6AE4ADA96776CD439 /* Pods-EverestFC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EverestFC.release.xcconfig"; path = "Pods/Target Support Files/Pods-EverestFC/Pods-EverestFC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9079B1D71D7A76B400281459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B078761D7BC3FC000BF2F3 /* Bolts.framework in Frameworks */,
+				9079B1F61D7A93D900281459 /* FBSDKShareKit.framework in Frameworks */,
+				0C36A4A668B6E1A6EFCFAEF9 /* Pods_EverestFC.framework in Frameworks */,
+				9079B1F41D7A93D900281459 /* FBSDKCoreKit.framework in Frameworks */,
+				9079B1F51D7A93D900281459 /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C213B734155D19E03BACD7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90B078751D7BC3FC000BF2F3 /* Bolts.framework */,
+				9079B1F21D7A93D900281459 /* FBSDKLoginKit.framework */,
+				9079B1F31D7A93D900281459 /* FBSDKShareKit.framework */,
+				83FC7408BBCAF9A24768F05E /* Pods_EverestFC.framework */,
+				9079B1F11D7A93D900281459 /* FBSDKCoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9079B1D11D7A76B400281459 = {
+			isa = PBXGroup;
+			children = (
+				9079B1DC1D7A76B400281459 /* EverestFC */,
+				9079B1DB1D7A76B400281459 /* Products */,
+				CC8F306FBF555ABB5113515F /* Pods */,
+				7C213B734155D19E03BACD7F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9079B1DB1D7A76B400281459 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9079B1DA1D7A76B400281459 /* EverestFC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9079B1DC1D7A76B400281459 /* EverestFC */ = {
+			isa = PBXGroup;
+			children = (
+				90B0786E1D7BA20C000BF2F3 /* Util */,
+				90B078471D7B93D6000BF2F3 /* Resources */,
+				90B078461D7B93B1000BF2F3 /* Controller */,
+				90B078451D7B93AB000BF2F3 /* View */,
+				90B078441D7B93A3000BF2F3 /* Model */,
+				9079B1DD1D7A76B400281459 /* AppDelegate.swift */,
+				9079B1DF1D7A76B400281459 /* ViewController.swift */,
+				9079B1E11D7A76B400281459 /* Main.storyboard */,
+				9079B1E41D7A76B400281459 /* Assets.xcassets */,
+				9079B1E61D7A76B400281459 /* LaunchScreen.storyboard */,
+				9079B1EF1D7A789600281459 /* GoogleService-Info.plist */,
+				9079B1E91D7A76B400281459 /* Info.plist */,
+			);
+			path = EverestFC;
+			sourceTree = "<group>";
+		};
+		90B078441D7B93A3000BF2F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		90B078451D7B93AB000BF2F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				90B0786C1D7BA19B000BF2F3 /* MaterialView.swift */,
+				90B078711D7BAA74000BF2F3 /* MaterialButton.swift */,
+				90B078731D7BB252000BF2F3 /* MaterialTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		90B078461D7B93B1000BF2F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		90B078471D7B93D6000BF2F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90B078541D7B94A7000BF2F3 /* Roboto-Black.ttf */,
+				90B078551D7B94A7000BF2F3 /* Roboto-BlackItalic.ttf */,
+				90B078561D7B94A7000BF2F3 /* Roboto-Bold.ttf */,
+				90B078571D7B94A7000BF2F3 /* Roboto-BoldItalic.ttf */,
+				90B078581D7B94A7000BF2F3 /* Roboto-Italic.ttf */,
+				90B078591D7B94A7000BF2F3 /* Roboto-Light.ttf */,
+				90B0785A1D7B94A7000BF2F3 /* Roboto-LightItalic.ttf */,
+				90B0785B1D7B94A7000BF2F3 /* Roboto-Medium.ttf */,
+				90B0785C1D7B94A7000BF2F3 /* Roboto-MediumItalic.ttf */,
+				90B0785D1D7B94A7000BF2F3 /* Roboto-Regular.ttf */,
+				90B0785E1D7B94A7000BF2F3 /* Roboto-Thin.ttf */,
+				90B0785F1D7B94A7000BF2F3 /* Roboto-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		90B0786E1D7BA20C000BF2F3 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				90B0786F1D7BA21D000BF2F3 /* constant.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		CC8F306FBF555ABB5113515F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EB35C1676E9DE5E6730867D /* Pods-EverestFC.debug.xcconfig */,
+				D2373BC6AE4ADA96776CD439 /* Pods-EverestFC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9079B1D91D7A76B400281459 /* EverestFC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9079B1EC1D7A76B400281459 /* Build configuration list for PBXNativeTarget "EverestFC" */;
+			buildPhases = (
+				3AF3B49EA78035833C1B2DAE /* [CP] Check Pods Manifest.lock */,
+				9079B1D61D7A76B400281459 /* Sources */,
+				9079B1D71D7A76B400281459 /* Frameworks */,
+				9079B1D81D7A76B400281459 /* Resources */,
+				D7AB23E383349366931E67A1 /* [CP] Embed Pods Frameworks */,
+				2009CBC5899C74A97678F37D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EverestFC;
+			productName = EverestFC;
+			productReference = 9079B1DA1D7A76B400281459 /* EverestFC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9079B1D21D7A76B400281459 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Shankar Prajapati";
+				TargetAttributes = {
+					9079B1D91D7A76B400281459 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 788CPQXE33;
+					};
+				};
+			};
+			buildConfigurationList = 9079B1D51D7A76B400281459 /* Build configuration list for PBXProject "EverestFC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9079B1D11D7A76B400281459;
+			productRefGroup = 9079B1DB1D7A76B400281459 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9079B1D91D7A76B400281459 /* EverestFC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9079B1D81D7A76B400281459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B078621D7B94A7000BF2F3 /* Roboto-Bold.ttf in Resources */,
+				90B078661D7B94A7000BF2F3 /* Roboto-LightItalic.ttf in Resources */,
+				90B078681D7B94A7000BF2F3 /* Roboto-MediumItalic.ttf in Resources */,
+				90B078641D7B94A7000BF2F3 /* Roboto-Italic.ttf in Resources */,
+				90B078651D7B94A7000BF2F3 /* Roboto-Light.ttf in Resources */,
+				9079B1E81D7A76B400281459 /* LaunchScreen.storyboard in Resources */,
+				90B078631D7B94A7000BF2F3 /* Roboto-BoldItalic.ttf in Resources */,
+				90B078611D7B94A7000BF2F3 /* Roboto-BlackItalic.ttf in Resources */,
+				90B0786A1D7B94A7000BF2F3 /* Roboto-Thin.ttf in Resources */,
+				90B078691D7B94A7000BF2F3 /* Roboto-Regular.ttf in Resources */,
+				9079B1F01D7A789600281459 /* GoogleService-Info.plist in Resources */,
+				90B078671D7B94A7000BF2F3 /* Roboto-Medium.ttf in Resources */,
+				90B0786B1D7B94A7000BF2F3 /* Roboto-ThinItalic.ttf in Resources */,
+				90B078601D7B94A7000BF2F3 /* Roboto-Black.ttf in Resources */,
+				9079B1E51D7A76B400281459 /* Assets.xcassets in Resources */,
+				9079B1E31D7A76B400281459 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2009CBC5899C74A97678F37D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EverestFC/Pods-EverestFC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AF3B49EA78035833C1B2DAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7AB23E383349366931E67A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EverestFC/Pods-EverestFC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9079B1D61D7A76B400281459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B078741D7BB252000BF2F3 /* MaterialTextField.swift in Sources */,
+				90B0786D1D7BA19B000BF2F3 /* MaterialView.swift in Sources */,
+				9079B1E01D7A76B400281459 /* ViewController.swift in Sources */,
+				9079B1DE1D7A76B400281459 /* AppDelegate.swift in Sources */,
+				90B078701D7BA21D000BF2F3 /* constant.swift in Sources */,
+				90B078721D7BAA74000BF2F3 /* MaterialButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9079B1E11D7A76B400281459 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9079B1E21D7A76B400281459 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9079B1E61D7A76B400281459 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9079B1E71D7A76B400281459 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9079B1EA1D7A76B400281459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "~/Documents/FacebookSDK";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9079B1EB1D7A76B400281459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "~/Documents/FacebookSDK";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9079B1ED1D7A76B400281459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EB35C1676E9DE5E6730867D /* Pods-EverestFC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = EverestFC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shankar.EverestFC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9079B1EE1D7A76B400281459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2373BC6AE4ADA96776CD439 /* Pods-EverestFC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = EverestFC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shankar.EverestFC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9079B1D51D7A76B400281459 /* Build configuration list for PBXProject "EverestFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9079B1EA1D7A76B400281459 /* Debug */,
+				9079B1EB1D7A76B400281459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9079B1EC1D7A76B400281459 /* Build configuration list for PBXNativeTarget "EverestFC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9079B1ED1D7A76B400281459 /* Debug */,
+				9079B1EE1D7A76B400281459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9079B1D21D7A76B400281459 /* Project object */;
+}

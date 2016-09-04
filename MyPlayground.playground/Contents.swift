@@ -1,104 +1,69 @@
 //: Playground - noun: a place where people can play
 
 import UIKit
-//import Foundation
-//import Darwin
-/*
-var str = "Hello, playground"
-var name = "shanki"
 
-var a:Double = 12.123
-var b:Int = 6
+var moneyVal: Int?
 
-print("The product of \(a) and \(b) is \(a * Double(b))")
-
-
-
-var array = [1,23,11,14,5,2]
-
-array.sort()
-array.removeAtIndex(1)
-
-var myDictionary = ["momo":10, "chowmin":15, "sukuti": 22]
-
-print("The sum of all three items is \(myDictionary["momo"]! + myDictionary["chowmin"]! + myDictionary["sukuti"]!)")
-
-var myArray = [10,14,8,22]
-
-for (index, value) in myArray.enumerate(){
-    myArray[index] = value/2
+moneyVal = 120
+if moneyVal != nil {
+    print(moneyVal!)
 }
-print(myArray)
- */
+
+if let mv = moneyVal {
+    print(mv)
+}
 
 
-//print(sqrt(9.0))
-//
-//var isPrime = true
-//
-//
-//
-//var inputNum = 1
-//
-//if inputNum == 1{
-//    isPrime = false
-//}
-//if inputNum != 2 && inputNum != 1 {
-//    for var i = 2; i < inputNum/2 ; i = i+1 {
-//        if(inputNum % i == 0){
-//            isPrime = false
-//        }
-//    }
-//    
-//}
-//print(isPrime)
+class car{
+    var model: String?
+    
+}
 
-var str = "Helo"
+var vehicle: car?
+print(vehicle?.model)
 
-var newString = str + " Shanki"
+vehicle = car()
+vehicle?.model = "mustang"
 
-print (newString)
+if let m = vehicle?.model {
+    print(m)
+}
 
-//for Character in newString.characters {
-//
-//    print (Character)
-//}
+if let v = vehicle, let mb = v.model {
+    print(mb)
+}
 
-var newTypeString = NSString(string: newString)
+var cars: [car]?
 
-print(newTypeString)
+cars = [car]()
 
-print(newTypeString.substring(to: 5))
-
-print(newTypeString.substring(from: 6))
-
-print(newTypeString.substring(with: NSRange(location: 1, length: 2)))
-
-newTypeString.contains("Shanki")
-
-newTypeString.components(separatedBy: " ")
-
-newTypeString.uppercased
-newTypeString.lowercased
-
-
-for i in 1...5 {
-    print("\(i) times 5 is \(i * 5)")
+if let carrrr = cars where carrrr.count > 0 {
+    //only executes if not nil and has has element
+} else {
+    cars?.append(car())
+    print(cars?.count)
 }
 
 
 
-let label: UILabel = UILabel(frame: CGRect.init(x: 20, y: 20, width: 200, height: 50))
-label.text = "Sample Text"
-label.font = UIFont.boldSystemFont(ofSize: 20)
-label.textColor = UIColor.blue()
 
-
-
-for p in 0 ..< 10 {
-    print(p)
+class person{
+    private var _age: Int!
+    
+    var age: Int {
+        if _age == nil{
+            _age = 15
+        }
+        return _age
+    }
+    
+    func setAge(newAge: Int){
+        self._age = newAge
+    }
+    
 }
-
-
+var jack = person()
+print(jack.age)
+print(jack._age)
 
 

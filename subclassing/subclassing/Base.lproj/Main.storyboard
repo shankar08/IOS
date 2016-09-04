@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A313a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="subclassing" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eKh-pk-V6u">
+                                <rect key="frame" x="142" y="197" width="317" height="206"/>
+                                <color key="backgroundColor" red="0.19215686269999999" green="0.99607843139999996" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="206" id="2xW-xe-eeF"/>
+                                    <constraint firstAttribute="width" constant="317" id="s1c-27-guI"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yf3-Ca-Kso" customClass="customButton" customModule="subclassing" customModuleProvider="target">
+                                <rect key="frame" x="240" y="264" width="120" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="3eW-gw-0uN"/>
+                                    <constraint firstAttribute="width" constant="120" id="iNo-cw-AIl"/>
+                                </constraints>
+                                <state key="normal" title="newbut"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eKh-pk-V6u" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4e8-iZ-J33"/>
+                            <constraint firstItem="Yf3-Ca-Kso" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pss-Tl-yPx"/>
+                            <constraint firstItem="Yf3-Ca-Kso" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qul-4m-16w"/>
+                            <constraint firstItem="eKh-pk-V6u" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sUw-7H-I2c"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="377"/>
+        </scene>
+    </scenes>
+</document>

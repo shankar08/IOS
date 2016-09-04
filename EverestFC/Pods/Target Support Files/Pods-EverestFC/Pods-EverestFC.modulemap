@@ -1,0 +1,6 @@
+framework module Pods_EverestFC {
+  umbrella header "Pods-EverestFC-umbrella.h"
+
+  export *
+  module * { export * }
+}
