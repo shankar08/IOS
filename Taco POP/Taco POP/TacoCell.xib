@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2338c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TacoCell" id="gTV-IL-0wX" customClass="TacoCell" customModule="Taco_POP" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="95" height="95"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="95" height="95"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fish" translatesAutoresizingMaskIntoConstraints="NO" id="P6Q-yg-CD9">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="9OK-Se-Lnz"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fish Taco" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="fOm-OX-Ihs">
+                        <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="fOm-OX-Ihs" secondAttribute="trailing" id="2nF-yC-23M"/>
+                <constraint firstItem="P6Q-yg-CD9" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="b1X-Qa-Fb5"/>
+                <constraint firstItem="fOm-OX-Ihs" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="bbg-jn-BJg"/>
+                <constraint firstAttribute="bottom" secondItem="fOm-OX-Ihs" secondAttribute="bottom" constant="5" id="bno-kL-bfS"/>
+                <constraint firstItem="P6Q-yg-CD9" firstAttribute="trailing" secondItem="fOm-OX-Ihs" secondAttribute="trailing" id="eNl-IR-Uo4"/>
+                <constraint firstItem="P6Q-yg-CD9" firstAttribute="leading" secondItem="fOm-OX-Ihs" secondAttribute="leading" id="gap-Ee-8Na"/>
+            </constraints>
+            <size key="customSize" width="137" height="152"/>
+            <connections>
+                <outlet property="tacoImage" destination="P6Q-yg-CD9" id="sz7-qv-fXe"/>
+                <outlet property="tacoLabel" destination="fOm-OX-Ihs" id="CW4-0F-m61"/>
+            </connections>
+            <point key="canvasLocation" x="-206" y="-82"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Fish" width="1024" height="768"/>
+    </resources>
+</document>

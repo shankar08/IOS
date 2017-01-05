@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "725329A742F4F9F51F4EAF37824B9E1E54791ADB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0BD57B92E11D36EC0035B54E56B92B4F6659E713" : 9223372036854775807,
+    "725329A742F4F9F51F4EAF37824B9E1E54791ADB" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "936EF70F-39C6-4EB9-BEAB-4461C2B71155",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0BD57B92E11D36EC0035B54E56B92B4F6659E713" : "",
+    "725329A742F4F9F51F4EAF37824B9E1E54791ADB" : "TheWeatherApp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TheWeatherApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TheWeatherApp.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shankar08\/IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0BD57B92E11D36EC0035B54E56B92B4F6659E713"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shankar08\/TheWeatherApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "725329A742F4F9F51F4EAF37824B9E1E54791ADB"
+    }
+  ]
+}

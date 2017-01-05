@@ -16,9 +16,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let url = NSURL(string: "http://www.stackoverflow.com")!
+        let url = URL(string: "http://www.stackoverflow.com")!
        //this line of code below simply displays the web url in the web view
-        webView.loadRequest(NSURLRequest(URL: url))
+        webView.loadRequest(URLRequest(url: url))
         
         /*
         //if we want to download the content and display in the screen, this chunk of codes does it

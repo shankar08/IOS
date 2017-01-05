@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "13542A066B788ED3A837E73670FC666EA94C07D0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "13542A066B788ED3A837E73670FC666EA94C07D0" : 9223372036854775807,
+    "0BD57B92E11D36EC0035B54E56B92B4F6659E713" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CD353DA6-E813-4866-A57B-A7926A7B89F0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "13542A066B788ED3A837E73670FC666EA94C07D0" : "SampleNewsApp\/",
+    "0BD57B92E11D36EC0035B54E56B92B4F6659E713" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TorrentNewsApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TorrentNewsApp\/TorrentNewsApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shankar08\/IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0BD57B92E11D36EC0035B54E56B92B4F6659E713"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shankar08\/SampleNewsApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "13542A066B788ED3A837E73670FC666EA94C07D0"
+    }
+  ]
+}

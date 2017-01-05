@@ -1,104 +1,44 @@
 //: Playground - noun: a place where people can play
 
 import UIKit
-//import Foundation
-//import Darwin
-/*
-var str = "Hello, playground"
-var name = "shanki"
 
-var a:Double = 12.123
-var b:Int = 6
+var amount = [5, 1, 4, 1, 4]
 
-print("The product of \(a) and \(b) is \(a * Double(b))")
+amount.append(11)
+amount.remove(at: 2)
 
-
-
-var array = [1,23,11,14,5,2]
-
-array.sort()
-array.removeAtIndex(1)
-
-var myDictionary = ["momo":10, "chowmin":15, "sukuti": 22]
-
-print("The sum of all three items is \(myDictionary["momo"]! + myDictionary["chowmin"]! + myDictionary["sukuti"]!)")
-
-var myArray = [10,14,8,22]
-
-for (index, value) in myArray.enumerate(){
-    myArray[index] = value/2
-}
-print(myArray)
- */
-
-
-//print(sqrt(9.0))
-//
-//var isPrime = true
-//
-//
-//
-//var inputNum = 1
-//
-//if inputNum == 1{
-//    isPrime = false
-//}
-//if inputNum != 2 && inputNum != 1 {
-//    for var i = 2; i < inputNum/2 ; i = i+1 {
-//        if(inputNum % i == 0){
-//            isPrime = false
-//        }
-//    }
-//    
-//}
-//print(isPrime)
-
-var str = "Helo"
-
-var newString = str + " Shanki"
-
-print (newString)
-
-//for Character in newString.characters {
-//
-//    print (Character)
-//}
-
-var newTypeString = NSString(string: newString)
-
-print(newTypeString)
-
-print(newTypeString.substring(to: 5))
-
-print(newTypeString.substring(from: 6))
-
-print(newTypeString.substring(with: NSRange(location: 1, length: 2)))
-
-newTypeString.contains("Shanki")
-
-newTypeString.components(separatedBy: " ")
-
-newTypeString.uppercased
-newTypeString.lowercased
-
-
-for i in 1...5 {
-    print("\(i) times 5 is \(i * 5)")
+for x in 1..<10{
+    print(x)
 }
 
+var index = 0
 
+repeat{
+    print(index*5)
+    index += 1
+}while (index < 5)
 
-let label: UILabel = UILabel(frame: CGRect.init(x: 20, y: 20, width: 200, height: 50))
-label.text = "Sample Text"
-label.font = UIFont.boldSystemFont(ofSize: 20)
-label.textColor = UIColor.blue()
+var numMatch = [Int:String]()
+numMatch[2] = "Two"
+numMatch[0] = "Zero"
 
+//This will clear the dictionary
+// numMatch = [:]
 
+var airport: [String: String] = ["DFW":"Dallas FW", "KTM":"kathmandu","SFO":"Sanfrancisco"]
 
-for p in 0 ..< 10 {
-    print(p)
+airport["LHR"] = "London"
+
+for(airCode, airName) in airport{
+    print("\(airCode) : \(airName)")
+   // print(airCode)
 }
 
+var myRandom: [String: Dictionary<String,String>] = [:]
 
+var oddNumber = [Int]()
+for n in 0...49{
+    oddNumber.append(2 * n + 1)
+}
 
-
+print(oddNumber)

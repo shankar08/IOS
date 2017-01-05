@@ -1,0 +1,6 @@
+framework module Pods_Letmepushmynotif {
+  umbrella header "Pods-Letmepushmynotif-umbrella.h"
+
+  export *
+  module * { export * }
+}

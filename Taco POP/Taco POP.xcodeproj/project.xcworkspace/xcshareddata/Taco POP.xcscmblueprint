@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9F610EF1F31D3EA3B1CD3EF8BC9361ECC8D23E97",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9F610EF1F31D3EA3B1CD3EF8BC9361ECC8D23E97" : 9223372036854775807,
+    "0BD57B92E11D36EC0035B54E56B92B4F6659E713" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "19DEDCF3-1B02-4053-91F8-BC6343DF1A56",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9F610EF1F31D3EA3B1CD3EF8BC9361ECC8D23E97" : "Taco%20POP\/",
+    "0BD57B92E11D36EC0035B54E56B92B4F6659E713" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Taco POP",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Taco POP.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shankar08\/IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0BD57B92E11D36EC0035B54E56B92B4F6659E713"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shankar08\/Taco-POP.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F610EF1F31D3EA3B1CD3EF8BC9361ECC8D23E97"
+    }
+  ]
+}
