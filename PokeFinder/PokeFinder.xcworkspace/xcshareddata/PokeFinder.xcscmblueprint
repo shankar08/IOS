@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8B60E5F73B9E86DACCFB66F75ACA86A7C768ACB7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8B60E5F73B9E86DACCFB66F75ACA86A7C768ACB7" : 9223372036854775807,
+    "0BD57B92E11D36EC0035B54E56B92B4F6659E713" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AC93D7F1-1F69-4AF1-AF0A-16137988A339",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8B60E5F73B9E86DACCFB66F75ACA86A7C768ACB7" : "PokeFinder\/",
+    "0BD57B92E11D36EC0035B54E56B92B4F6659E713" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PokeFinder",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PokeFinder.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shankar08\/IOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0BD57B92E11D36EC0035B54E56B92B4F6659E713"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shankar08\/PokeFinder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8B60E5F73B9E86DACCFB66F75ACA86A7C768ACB7"
+    }
+  ]
+}
